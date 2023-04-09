@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            padding-left: 0px;
+            background-color:midnightblue;
+            width:450px;
+        }
+        .abc{
+            background-color:orange;
+            width: 450px;
+            height: 40px;
+            padding-left: 0px;
+        }
+        p.sub{
+            background-color: orange;
+           height:40px;
+            width:450px;
+        }
+        /*.button{
+            font-family: italic;
+            background-color: aqua;
+        }*/
+        </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <p class="abc" style="color:yellow">Sign Up</p>
+            <table>
+            <tr>
+                <td style="color:yellow"><center>FirstName</center></td>
+                <td><input type="text" placeholder="Enter First Name" size="20"></td>
+            </tr>
+            <tr>
+                <td style="color:yellow"><center>LastName</center></td>
+                <td><input type="text" placeholder="Enter Last Name" size="20"></td>
+            </tr>
+            <tr>
+                <td style="color:yellow"><center>Date of Birth</center></td>
+                <td>
+                    <select name="Date" id="Date">
+                        <option value="Date">Date</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <select name="Month" id="Month">
+                        <option value="Month">Month</option>
+                        <option value="1">Jan</option>
+                        <option value="2">Feb</option>
+                        <option value="3">Mar</option>
+                        <option value="4">Apr</option>
+                        <option value="5">May</option>  
+                    </select>
+                    <select name="Year" id="Year">
+                        <option value="Year">Year</option>
+                        <option value="1">1995</option>
+                        <option value="2">1996</option>
+                        <option value="3">1997</option>
+                        <option value="4">1998</option>
+                        <option value="5">1999</option>  
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="color:yellow"><center>Gender</center></td>
+                <td style="color:yellow"><input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </td>
+            </tr>
+            <tr>
+                <td style="color:yellow"><center>Country</center></td>
+                <td><select name="id">
+                    <option value="select">Country</option>
+                    <option value="India">India</option>
+                    <option value="Srilanka">Srilanka</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td style="color:yellow"><center>E-mail</center></td>
+                <td><input type="text" placeholder="Enter E-mail"></td>
+            </tr>
+            <tr>
+                <td style="color:yellow"><center>Phone</center></td>
+                <td><input type="number" placeholder="Enter Phone"></td>
+            </tr>
+            <tr>
+                <td style="color:yellow"><center>Password</center></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td style="color:yellow"><center>Confirm Password</center></td>
+                <td><input type="confirm password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="cb">I agree to the Terms of use
+                </td>
+            </tr>
+             
+        </table>
+        <p  align = "right" class="sub">
+            <!--<p class="abc" style="color:yellow">Sign Up</p>-->
+            <br>
+            <input type="Submit" style="background-color: green;" style="color:antiquewhite;"> 
+            <button style="background-color: red;" style="color:antiquewhite;" >Cancel</button>
+            
+        </p>     
+    </form>
+</body>
+</html>
